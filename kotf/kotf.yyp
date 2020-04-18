@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "33480079-21fe-4237-9be3-9c2a33760121",
+            "Value": {
+                "id": "730a8cdd-826a-420b-b55d-00819dd4cb9d",
+                "resourcePath": "objects\\obj_spring\\obj_spring.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "452aa5f7-b013-4a5f-86eb-d66d4dc1de40",
             "Value": {
                 "id": "5212b1fa-39c6-447b-a0ad-3c84dfd380cb",
@@ -204,6 +212,22 @@
                 "id": "e4b87f3d-c69f-4e89-8c60-65b584cc8641",
                 "resourcePath": "scripts\\colors\\colors.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "595e0685-6972-42c5-9195-ea0a98727fd8",
+            "Value": {
+                "id": "897ef4c6-d32f-40f3-a098-efc7a3d96138",
+                "resourcePath": "rooms\\level_4\\level_4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5b7dfb2f-fcec-4d73-899a-bd3017aad5f0",
+            "Value": {
+                "id": "3d434d65-1f71-4ee3-9d79-41f2b541ea06",
+                "resourcePath": "views\\5b7dfb2f-fcec-4d73-899a-bd3017aad5f0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -332,6 +356,22 @@
                 "id": "d80aa0a5-dc14-489c-b0a9-2faeb8b439ab",
                 "resourcePath": "views\\9dacb62f-4dd4-4567-aac9-ce3d6a5b6c25.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a6713a49-7946-4b19-884b-4f611a45dc64",
+            "Value": {
+                "id": "e4f41722-c56f-446e-a14d-5154ecebf169",
+                "resourcePath": "sprites\\spr_spring\\spr_spring.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a72ab643-9a11-4031-b20c-0a4e61e047cf",
+            "Value": {
+                "id": "858c9eb4-aac6-460b-a2fc-d138ad9bb896",
+                "resourcePath": "sprites\\spr_spring_active\\spr_spring_active.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

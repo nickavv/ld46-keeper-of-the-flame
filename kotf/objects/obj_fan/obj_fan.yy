@@ -77,8 +77,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "offset",
-            "varType": 3
+            "varName": "offsetTime",
+            "varType": 0
         }
     ],
     "solid": false,

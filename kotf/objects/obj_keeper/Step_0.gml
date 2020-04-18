@@ -20,6 +20,9 @@ switch (state) {
 		if (keyboard_check(vk_left) || keyboard_check(vk_right)) {
 			state = keeperState.running;
 		}
+		if (keyboard_check(ord("S")) && !coolingOff) {
+			state = keeperState.keeping;
+		}
 		change_sprite(facing == dir.left ? spr_keeper_idle_left : spr_keeper_idle_right);
 		hspeed = lerp(hspeed, 0, 0.18);
 		vspeed = 0;
@@ -29,6 +32,9 @@ switch (state) {
 	case keeperState.running: {
 		if (keyboard_check_released(vk_left) || keyboard_check_released(vk_right)) {
 			state = keeperState.idle;
+		}
+		if (keyboard_check(ord("S")) && !coolingOff) {
+			state = keeperState.keeping;
 		}
 		change_sprite(facing == dir.left ? spr_keeper_run_left : spr_keeper_run_right);
 		hspeed = lerp(hspeed, runSpeed * (facing == dir.left ? -1 : 1), 0.25);
@@ -71,6 +77,20 @@ switch (state) {
 		event_user(0);
 		event_user(1);
 	} break;
+	case keeperState.keeping: {
+		change_sprite(facing == dir.left ? spr_keeper_keep_left : spr_keeper_keep_right);
+		if (keyboard_check_released(ord("S"))) {
+			state = keeperState.idle;
+		}
+		if (keepLevel == 9) {
+			keepLevel = 8;
+		}
+		if (keepLevel == 0) {
+			state = keeperState.idle;
+		}
+		hspeed = 0;
+		vspeed = 0;
+	} break;
 	case keeperState.lighting: {
 		if (!brazierLit) {
 			change_sprite(spr_keeper_lighting);
@@ -92,4 +112,26 @@ switch (state) {
 		change_sprite(facing == dir.left ? spr_keeper_fail_left : spr_keeper_fail_right);
 		event_user(0);
 	} break;
+}
+
+if (state == keeperState.keeping) {
+	keepFrame = (keepFrame + 1) % keepFramesPerLevel;
+	if (keepFrame == 0) {
+		keepLevel = max(keepLevel - 1, 0);
+		if (keepLevel == 0) {
+			keepCooldown = true;
+			coolingOff = true;
+			alarm[0] = keepCooldownFrames;
+		}
+	}
+} else if (keepLevel <= 8) {
+	if (!keepCooldown) {
+		keepFrame = (keepFrame + 1) % keepFramesPerLevel;
+		if (keepFrame == 0) {
+			keepLevel = min(keepLevel + 1, 9);
+			if (keepLevel == 9) {
+				coolingOff = false;
+			}
+		}
+	}
 }

@@ -32,3 +32,8 @@ if (failed) {
 		room_restart();
 	}
 }
+
+// DEBUG level skip, Alt+Shift+N
+if (keyboard_check(vk_alt) && keyboard_check(vk_shift) && keyboard_check_pressed(ord("N"))) {
+	room_goto(nextLevel);
+}

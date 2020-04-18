@@ -3,16 +3,18 @@ enum keeperState {
 	idle,
 	running,
 	jumping,
-	falling
+	falling,
+	lighting
 }
 state = keeperState.idle;
+brazierLit = false;
 
 grounded = false;
 
 jumpBufferedFrame = 0;
 jumpFrame = 0;
-jumpFrames = 6;
-jumpPowerPerFrame = 1.2;
+jumpFrames = 5;
+jumpPowerPerFrame = 1.35;
 
 runSpeed = 1.9;
-airSpeed = 0;
+airSpeed = 1.6;

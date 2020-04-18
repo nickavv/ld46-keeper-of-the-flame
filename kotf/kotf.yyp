@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2883c477-5610-4ac5-8ac8-839f3c5b6ad0",
+            "Value": {
+                "id": "5d68bb3c-2f6f-4faa-821a-e20b467df577",
+                "resourcePath": "sprites\\spr_keeper_lighting\\spr_keeper_lighting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "452aa5f7-b013-4a5f-86eb-d66d4dc1de40",
             "Value": {
                 "id": "5212b1fa-39c6-447b-a0ad-3c84dfd380cb",
@@ -92,6 +100,14 @@
                 "id": "53ab8e24-3728-441a-9fd3-078ad331f8c8",
                 "resourcePath": "views\\487d18b8-1d85-4e97-8737-792e45db9c17.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4895bdd3-1c32-40c4-abd9-12459e5a3aef",
+            "Value": {
+                "id": "7d209097-e12c-4732-b7f3-ca389708a1fb",
+                "resourcePath": "objects\\obj_brazier\\obj_brazier.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -124,6 +140,14 @@
                 "id": "8d0f57d4-ad0b-4ff5-ae19-e9b7589d6e0e",
                 "resourcePath": "scripts\\enums\\enums.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8e9b7e63-4510-4c80-9853-351835e0177d",
+            "Value": {
+                "id": "8d1cae77-7481-47c1-a806-119e2607320a",
+                "resourcePath": "sprites\\spr_brazier_lit\\spr_brazier_lit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,6 +207,14 @@
             }
         },
         {
+            "Key": "af03e5c7-fd98-4add-83cc-fb9e3158cd84",
+            "Value": {
+                "id": "c0c1c3ff-2f0e-4e6a-8f3e-bfe5104dcd9a",
+                "resourcePath": "sprites\\spr_brazier_lighting\\spr_brazier_lighting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b97cf401-8619-4987-8209-c3049e4c1117",
             "Value": {
                 "id": "25cac5bb-6fb9-4f28-80f1-780caec465fa",
@@ -228,6 +260,14 @@
                 "id": "91d02796-da46-41c6-a9e4-3ba79b8603c1",
                 "resourcePath": "views\\d18740a9-41f2-42f6-a969-2bd338dca0af.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d45d22c8-95d1-4856-8a18-3b6318a5f00b",
+            "Value": {
+                "id": "dbc18cdf-4fa4-4026-bbff-71750fc5e524",
+                "resourcePath": "sprites\\spr_brazier\\spr_brazier.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

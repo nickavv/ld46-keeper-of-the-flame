@@ -1,5 +1,5 @@
 event_inherited();
 
-if (obj_keeper.state == keeperState.keeping) {
+if (obj_keeper.keepLevel < 7) {
 	complete = true;
 }

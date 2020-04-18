@@ -79,6 +79,20 @@
             "value": "0",
             "varName": "offsetTime",
             "varType": 0
+        },
+        {
+            "id": "173412bc-0065-4c96-a63b-48d571f788ba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pause",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -4,7 +4,8 @@ enum keeperState {
 	running,
 	jumping,
 	falling,
-	lighting
+	lighting,
+	failing
 }
 state = keeperState.idle;
 brazierLit = false;

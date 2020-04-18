@@ -22,3 +22,13 @@ if (levelEnding) {
 		room_goto(nextLevel);
 	}
 }
+
+if (failed) {
+	failedFrame ++;
+	if (failedFrame >= failedFrames) {
+		fadeDirection = fadeDir.out;
+	}
+	if (fadeFrame >= fadeFrames) {
+		room_restart();
+	}
+}

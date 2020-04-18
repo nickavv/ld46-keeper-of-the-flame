@@ -82,4 +82,9 @@ switch (state) {
 		hspeed = 0;
 		vspeed = 0;
 	} break;
+	case keeperState.failing: {
+		hspeed = 0;
+		vspeed = 0;
+		change_sprite(facing == dir.left ? spr_keeper_fail_left : spr_keeper_fail_right);
+	} break;
 }

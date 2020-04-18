@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "583e9dbb-cc5c-4b18-a14e-a775f7e13751",
+            "Value": {
+                "id": "e6c8846d-0f0f-4716-92d4-3bdbe9611a9f",
+                "resourcePath": "objects\\obj_tutorial_keep\\obj_tutorial_keep.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59584864-0712-4d25-b19f-d5479a57d7f2",
             "Value": {
                 "id": "e4b87f3d-c69f-4e89-8c60-65b584cc8641",
@@ -236,6 +244,14 @@
                 "id": "8d0f57d4-ad0b-4ff5-ae19-e9b7589d6e0e",
                 "resourcePath": "scripts\\enums\\enums.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "80d738f4-5ccd-4710-81d9-d86ffb5f9d1e",
+            "Value": {
+                "id": "307baf16-ac34-4a19-b728-29d059184752",
+                "resourcePath": "sprites\\spr_tutorial_keep\\spr_tutorial_keep.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

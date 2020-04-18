@@ -1,4 +1,6 @@
-fadeDirection = fadeDir.in;
+shown = false;
+
+fadeDirection = fadeDir.none;
 fadeFrame = 0;
 fadeFrames = 20;
 

@@ -1,5 +1,10 @@
 image_alpha = fadeFrame / fadeFrames;
 
+if (shown == false && distance_to_object(obj_keeper) < 60) {
+	fadeDirection = fadeDir.in;
+	shown = true;
+}
+
 switch (fadeDirection) {
 	case fadeDir.in:
 		fadeFrame++;
@@ -19,7 +24,7 @@ switch (fadeDirection) {
 		break;
 }
 
-if (complete) {
+if (shown && complete) {
 	fadeDirection = fadeDir.out;
 }
 

@@ -10,10 +10,10 @@ part_type_size(pt_wind, 1, 1, 0, 0);
 part_type_scale(pt_wind, 0.7, 2.8);
 part_type_orientation(pt_wind, 0, 0, 0, 0, 0);
 part_type_color3(pt_wind, c_white, c_white, c_white);
-part_type_alpha3(pt_wind, 0.2, 0.70, 0.4);
+part_type_alpha3(pt_wind, 0, 0.60, 0.2);
 part_type_blend(pt_wind, 0);
-part_type_life(pt_wind, 22, 28);
-part_type_speed(pt_wind, 0.2, 0.7, 0.15, 0.2);
+part_type_life(pt_wind, 20, 30);
+part_type_speed(pt_wind, 0.1, 0.3, 0.15, 0.2);
 part_type_direction(pt_wind, 268, 272, 0, 2);
 part_type_gravity(pt_wind, 0, 0);
 

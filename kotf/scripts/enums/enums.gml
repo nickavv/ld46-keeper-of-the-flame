@@ -1,0 +1,4 @@
+enum dir {
+	left,
+	right
+}

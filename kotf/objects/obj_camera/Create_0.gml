@@ -1,4 +1,4 @@
-width = 254;
+width = 256;
 height = 224;
 targetYOffset = -32;
 

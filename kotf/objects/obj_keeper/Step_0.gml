@@ -84,7 +84,12 @@ switch (state) {
 	} break;
 	case keeperState.failing: {
 		hspeed = 0;
-		vspeed = 0;
+		if (!grounded) {
+			vspeed += 0.35;
+		} else {
+			vspeed = 0;
+		}
 		change_sprite(facing == dir.left ? spr_keeper_fail_left : spr_keeper_fail_right);
+		event_user(0);
 	} break;
 }

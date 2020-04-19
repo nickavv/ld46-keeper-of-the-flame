@@ -6,7 +6,8 @@ enum keeperState {
 	falling,
 	lighting,
 	failing,
-	keeping
+	keeping,
+	throwingLever
 }
 state = keeperState.idle;
 brazierLit = false;

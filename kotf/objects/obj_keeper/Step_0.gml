@@ -1,7 +1,9 @@
-if (keyboard_check(vk_left)) {
-	facing = dir.left;
-} else if (keyboard_check(vk_right)) {
-	facing = dir.right;
+if (state != keeperState.failing) {
+	if (keyboard_check(vk_left)) {
+		facing = dir.left;
+	} else if (keyboard_check(vk_right)) {
+		facing = dir.right;
+	}
 }
 
 if (keyboard_check_pressed(ord("A"))) {
@@ -89,6 +91,11 @@ switch (state) {
 		if (keepLevel == 0) {
 			state = keeperState.idle;
 		}
+		hspeed = 0;
+		vspeed = 0;
+	} break;
+	case keeperState.throwingLever: {
+		change_sprite(spr_keeper_throwing_lever);
 		hspeed = 0;
 		vspeed = 0;
 	} break;

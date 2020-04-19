@@ -8,3 +8,6 @@ if (sprite_index == spr_keeper_fail_left ||
 	image_index = image_number - 1;
 	image_speed = 0;
 }
+if (sprite_index == spr_keeper_throwing_lever) {
+	state = keeperState.idle;
+}

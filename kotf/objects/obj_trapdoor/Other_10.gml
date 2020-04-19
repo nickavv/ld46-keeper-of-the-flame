@@ -1,0 +1,1 @@
+change_sprite(spr_trapdoor_opening);

@@ -16,7 +16,7 @@ switch (mDir) {
 	case dir.down:
 		particles = instance_create_layer(x + 8, y + 12, layer, obj_particle_prespawn); break;
 	case dir.up:
-		particles = instance_create_layer(x + 8, y - 12, layer, obj_particle_prespawn); break;
+		particles = instance_create_layer(x - 8, y - 12, layer, obj_particle_prespawn); break;
 	case dir.left:
 		particles = instance_create_layer(x - 12, y + 8, layer, obj_particle_prespawn); break;
 	case dir.right:

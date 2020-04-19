@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "a184364a-d9f0-4e8c-8795-e74ec79947b3"
+        "a184364a-d9f0-4e8c-8795-e74ec79947b3",
+        "8d6b4fe9-89c2-4bcc-b733-79479dfeb4db"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_38A60115","id": "a184364a-d9f0-4e8c-8795-e74ec79947b3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_38A60115","objId": "86f34513-444d-4111-9575-728157520b36","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": -32,"y": 0}
+{"name": "inst_38A60115","id": "a184364a-d9f0-4e8c-8795-e74ec79947b3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_38A60115","objId": "86f34513-444d-4111-9575-728157520b36","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": -32,"y": 0},
+{"name": "inst_337ECE97","id": "8d6b4fe9-89c2-4bcc-b733-79479dfeb4db","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_337ECE97","objId": "54a9fe54-42a1-44d4-988a-3065dffef3cd","properties": [{"id": "47c43fc4-7874-482d-adb8-a08d42a73eb0","modelName": "GMOverriddenProperty","objectId": "54a9fe54-42a1-44d4-988a-3065dffef3cd","propertyId": "af369b9a-fb95-44c4-a6ff-61d4f53953d3","mvc": "1.0","value": "snd_music_title"},{"id": "1be84a29-0412-430b-ab00-6ded795e0d3e","modelName": "GMOverriddenProperty","objectId": "54a9fe54-42a1-44d4-988a-3065dffef3cd","propertyId": "072b91b4-059a-4ee2-a25f-f624745e5534","mvc": "1.0","value": "False"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": -32,"y": 32}
             ],
             "layers": [
 

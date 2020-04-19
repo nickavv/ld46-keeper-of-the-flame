@@ -20,7 +20,9 @@ if (levelEnding) {
 	draw_line_width(0, topLineY,lineLength, topLineY, 4);
 	draw_line_width(256 - lineLength, bottomLineY, 256, bottomLineY, 4);
 	draw_set_alpha(1);
-} else {
+} 
+
+if (drawLevelName) {
 	draw_sprite_stretched(spr_gradient_bottom, 0, 0, 208, 256, 16);
 	draw_set_font(font_level);
 	draw_set_halign(fa_center);

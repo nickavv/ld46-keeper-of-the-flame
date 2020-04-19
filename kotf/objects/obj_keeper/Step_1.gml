@@ -5,4 +5,5 @@ if (canJump && jumpBufferedFrame > 0) {
 	jumpFrame = jumpFrames;
 	grounded = false;
 	y -= 2;
+	play_sfx(snd_jump, 0);
 }

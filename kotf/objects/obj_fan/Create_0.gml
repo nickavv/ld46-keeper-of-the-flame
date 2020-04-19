@@ -1,6 +1,8 @@
 fanSpeed = 0;
 targetSpeed = 0;
 
+sound = noone;
+
 initialized = false;
 mDir = dir.down;
 if (image_angle == 270) {

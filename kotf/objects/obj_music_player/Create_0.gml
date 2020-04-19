@@ -1,0 +1,1 @@
+audio_play_sound(musicTrack, 10, loops);

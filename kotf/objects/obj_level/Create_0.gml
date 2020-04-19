@@ -2,6 +2,8 @@
 guiWidth = 256;
 guiHeight = 224;
 
+drawLevelName = true;
+
 fadeFrames = 25;
 fadeFrame = fadeFrames;
 

@@ -12,6 +12,8 @@ enum keeperState {
 state = keeperState.idle;
 brazierLit = false;
 
+justFailed = true;
+
 grounded = false;
 
 jumpBufferedFrame = 0;

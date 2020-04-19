@@ -27,3 +27,7 @@ if (targetSpeed == 1 && fanSpeed > 0.4) {
 		}
 	}
 }
+
+if (!audio_is_playing(sound) && targetSpeed == 1) {
+	sound = play_sfx(snd_wind, distance_to_object(obj_keeper));
+}

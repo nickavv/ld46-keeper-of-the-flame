@@ -14,6 +14,7 @@ switch (fadeDirection) {
 }
 
 if (levelEnding) {
+	drawLevelName = false;
 	levelEndingFrame ++;
 	if (levelEndingFrame >= levelEndingFrames) {
 		fadeDirection = fadeDir.out;

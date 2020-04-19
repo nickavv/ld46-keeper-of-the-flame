@@ -13,10 +13,10 @@ if (jumpBufferedFrame > 0) {
 	jumpBufferedFrame --;
 }
 
+var lastState = state;
 if (grounded && instance_place(x, y, obj_brazier)) {
 	state = keeperState.lighting;
 }
-
 switch (state) {
 	case keeperState.idle: {
 		if (keyboard_check(vk_left) || keyboard_check(vk_right)) {
@@ -102,6 +102,9 @@ switch (state) {
 	case keeperState.lighting: {
 		if (!brazierLit) {
 			change_sprite(spr_keeper_lighting);
+			with (obj_music_player) {
+				event_user(0);
+			}
 		}
 		if (floor(image_index) == 4) {
 			obj_brazier.lit = true;
@@ -113,8 +116,11 @@ switch (state) {
 	case keeperState.failing: {
 		hspeed = 0;
 		vspeed = 0;
-		with (obj_level) {
-			event_user(0);
+		if (justFailed) {
+			with (obj_level) {
+				event_user(0);
+			}
+			justFailed = false;
 		}
 		change_sprite(facing == dir.left ? spr_keeper_fail_left : spr_keeper_fail_right);
 	} break;

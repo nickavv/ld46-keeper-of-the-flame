@@ -76,6 +76,7 @@ switch (state) {
 		vspeed += 0.35;
 		event_user(0);
 		event_user(1);
+		event_user(2);
 	} break;
 	case keeperState.keeping: {
 		change_sprite(facing == dir.left ? spr_keeper_keep_left : spr_keeper_keep_right);
@@ -104,13 +105,11 @@ switch (state) {
 	} break;
 	case keeperState.failing: {
 		hspeed = 0;
-		if (!grounded) {
-			vspeed += 0.35;
-		} else {
-			vspeed = 0;
+		vspeed = 0;
+		with (obj_level) {
+			event_user(0);
 		}
 		change_sprite(facing == dir.left ? spr_keeper_fail_left : spr_keeper_fail_right);
-		event_user(0);
 	} break;
 }
 
@@ -133,5 +132,12 @@ if (state == keeperState.keeping) {
 				coolingOff = false;
 			}
 		}
+	}
+}
+
+if (state == keeperState.failing && image_speed == 0) {
+	failedWaitFrame++;
+	if (failedWaitFrame >= failedWaitFrames) {
+		obj_level.failed = true;
 	}
 }

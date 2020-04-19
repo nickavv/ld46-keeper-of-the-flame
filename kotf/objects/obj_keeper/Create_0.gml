@@ -27,3 +27,6 @@ keepFramesPerLevel = 40;
 keepCooldown = false;
 coolingOff = false;
 keepCooldownFrames = 60;
+
+failedWaitFrame = 0;
+failedWaitFrames = 20;

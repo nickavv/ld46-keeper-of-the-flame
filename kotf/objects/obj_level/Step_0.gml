@@ -13,6 +13,8 @@ switch (fadeDirection) {
 		break;
 }
 
+audio_master_gain(1 - (fadeFrame/fadeFrames));
+
 if (levelEnding) {
 	drawLevelName = false;
 	levelEndingFrame ++;

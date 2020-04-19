@@ -1,6 +1,8 @@
 enum dir {
 	left,
-	right
+	right,
+	up,
+	down
 }
 
 enum fadeDir {

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2aa4021f-7648-4a68-9ad8-e6a79bd3dff6",
+            "Value": {
+                "id": "5e5d7d4e-aac2-40e1-bbc6-af9909067b41",
+                "resourcePath": "sprites\\spr_spring_active_red\\spr_spring_active_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33480079-21fe-4237-9be3-9c2a33760121",
             "Value": {
                 "id": "730a8cdd-826a-420b-b55d-00819dd4cb9d",
@@ -271,6 +279,22 @@
             }
         },
         {
+            "Key": "6aba768c-b9c9-4052-b1a3-9fc6a58b63f4",
+            "Value": {
+                "id": "617a34e6-93ed-4ac4-a116-7769c532af95",
+                "resourcePath": "rooms\\level_5\\level_5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6cf0bcec-c308-4a3f-a27c-95cdbc7b8ff5",
+            "Value": {
+                "id": "72054691-4074-4b5b-84b6-c3f88112356b",
+                "resourcePath": "sprites\\spr_spring_red\\spr_spring_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "793ead4f-7bef-45d6-b79b-08717b0c43bd",
             "Value": {
                 "id": "8d0f57d4-ad0b-4ff5-ae19-e9b7589d6e0e",
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "a8e487de-2585-471c-9b28-8f7fc92c89b4",
+            "Value": {
+                "id": "0c81222c-4aa9-4587-977e-86b543108b25",
+                "resourcePath": "objects\\obj_particle_prespawn\\obj_particle_prespawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "89fd3b6b-7a6c-4144-9c40-1a475c198227",
@@ -420,6 +452,14 @@
                 "id": "c0569544-4c47-4a81-94dd-ca93d3f50f7b",
                 "resourcePath": "sprites\\spr_msg_lose\\spr_msg_lose.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b737d032-0bc1-4703-8118-93a9fdea4e45",
+            "Value": {
+                "id": "e5ff9b91-6290-4517-9ad9-23365713b975",
+                "resourcePath": "objects\\obj_spring_red\\obj_spring_red.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -6,7 +6,22 @@ fanSpeed = lerp(fanSpeed, targetSpeed, 0.04);
 image_speed = fanSpeed;
 
 if (targetSpeed == 1 && fanSpeed > 0.4) {
-	if (collision_rectangle(x - 8, y + 8, x + 8, y + 80, obj_keeper, false, true)) {
+	var collision = false;
+	switch (mDir) {
+		case dir.down:
+			collision = collision_rectangle(x - 8, y + 8, x + 8, y + 80, obj_keeper, false, true);
+			break;
+		case dir.up:
+			collision = collision_rectangle(x - 8, y - 8, x + 8, y - 80, obj_keeper, false, true);
+			break;
+		case dir.left:
+			collision = collision_rectangle(x - 8, y - 8, x - 80, y + 8, obj_keeper, false, true);
+			break;
+		case dir.right:
+			collision = collision_rectangle(x + 8, y - 8, x + 80, y + 8, obj_keeper, false, true);
+			break;
+	}
+	if (collision) {
 		if (obj_keeper.state != keeperState.keeping) {
 			obj_keeper.state = keeperState.failing;
 		}

@@ -4,6 +4,7 @@ if (sprite_index == spr_lever_off) {
 		obj_keeper.x = lerp(obj_keeper.x, x, 0.8);
 		change_sprite(spr_lever_throwing);
 		play_sfx(snd_lever, 0);
+		alarm[1] = 40;
 	}
 }
 if (sprite_index == spr_lever_on) {
@@ -12,9 +13,10 @@ if (sprite_index == spr_lever_on) {
 		obj_keeper.x = lerp(obj_keeper.x, x, 0.8);
 		change_sprite(spr_lever_throwing_reverse);
 		play_sfx(snd_lever, 0);
+		alarm[0] = 40;
 	}
 }
 
 if (platform != noone) {
-	y = platform.y;
+	y = platform.bbox_top;
 }

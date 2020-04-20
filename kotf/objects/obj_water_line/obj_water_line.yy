@@ -62,20 +62,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "6e7ac7b2-2014-4abc-99b7-20a6839b8236",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "noone",
-            "varName": "lever",
-            "varType": 5
-        }
+        
     ],
     "solid": false,
     "spriteId": "13ccb271-cc33-4a79-86bc-715b7cfa2173",

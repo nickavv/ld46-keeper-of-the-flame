@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "abdc0271-4789-4aed-99ff-0f7ac42c31be",
+            "Value": {
+                "id": "b3e85bc2-fb2d-4bc2-b8e9-06c150519f33",
+                "resourcePath": "rooms\\win_screen\\win_screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ac11f778-351a-4c71-b6f9-dd6cfea8b259",
             "Value": {
                 "id": "36618b4d-5d41-4d19-b973-a5b387f9a810",
@@ -764,6 +772,14 @@
                 "id": "c9ac0ebd-9eb9-471c-8213-a6b8adf59f92",
                 "resourcePath": "sprites\\spr_tutorial_lever\\spr_tutorial_lever.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c803fdd1-e90b-40d3-86fa-415f7d20c412",
+            "Value": {
+                "id": "8fc81115-30c7-40a9-a495-31cbe6e9b485",
+                "resourcePath": "rooms\\level2_5\\level2_5.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

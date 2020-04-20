@@ -135,7 +135,7 @@ switch (state) {
 
 
 
-if (onFloatingPlatform && grounded) {
+if (onFloatingPlatform) {
 	if (collision_rectangle(bbox_left, bbox_top + vspeed - 1, 
 										bbox_right, bbox_top - 1, obj_trapdoor, false, true)) {
 		obj_keeper.state = keeperState.failing;

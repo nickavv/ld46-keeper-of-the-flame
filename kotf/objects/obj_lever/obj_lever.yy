@@ -33,6 +33,26 @@
             "enumb": 7,
             "eventtype": 7,
             "m_owner": "87bcbda6-94b0-4a13-b6af-bc67d158b371"
+        },
+        {
+            "id": "f6e7c1d7-044c-4665-931e-e8fd30ddba7a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "87bcbda6-94b0-4a13-b6af-bc67d158b371"
+        },
+        {
+            "id": "e66ac5b8-9b11-45c7-b7d2-f898073e4111",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "87bcbda6-94b0-4a13-b6af-bc67d158b371"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -62,7 +82,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "-1",
             "varName": "onValue",
             "varType": 4
         },
@@ -76,7 +96,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "-1",
             "varName": "offValue",
             "varType": 4
         },

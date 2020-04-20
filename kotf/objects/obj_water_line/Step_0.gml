@@ -1,5 +1,12 @@
-height = lerp(height, targetHeight, 
-		(min(lever.onValue, lever.offValue)/max(lever.onValue, lever.offValue))* 0.02);
+if (targetHeight < height - 6) {
+	targetSpeed = -maxSpeed;
+} else if (targetHeight > height + 6) {
+	targetSpeed = maxSpeed;
+} else {
+	targetSpeed = 0;
+}
+mSpeed = lerp(mSpeed, targetSpeed, 0.1);
+height += mSpeed;
 
 if (obj_keeper.bbox_top + 10 > height) {
 	obj_keeper.state = keeperState.failing;
@@ -14,10 +21,6 @@ if (targetHeight < height - 8) {
 	with (obj_drain) {
 		change_sprite(spr_drain);
 	}
-}
-
-if (lever != noone) {
-	targetHeight = lever.thrown ? lever.onValue : lever.offValue;
 }
 
 if (abs(targetHeight - height) > 15) {

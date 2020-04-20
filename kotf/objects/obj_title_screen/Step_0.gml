@@ -13,7 +13,7 @@ switch (fadeDirection) {
 		break;
 }
 
-if (!startingGame && keyboard_check(vk_anykey)) {
+if (!startingGame && keyboard_check(ord("A"))) {
 	startingGame = true;
 }
 

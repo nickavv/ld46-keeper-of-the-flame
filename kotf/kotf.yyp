@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "112592be-fe3a-481a-8128-9149bb0ab4fd",
+            "Value": {
+                "id": "3ff62b45-711c-4602-b98b-f76042bc458b",
+                "resourcePath": "sprites\\spr_help\\spr_help.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1129c353-0379-487b-9ba9-6b2c86896efb",
             "Value": {
                 "id": "d3abf765-42fb-44f9-9dea-931332d3e832",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "77df11d6-0520-456c-8d10-21e3ee88e99d",
+            "Value": {
+                "id": "aadbb855-ba35-4de0-b21e-ad98b6c7b1de",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7802c45b-d22c-4442-b0cd-c17dbdb9ebc7",
             "Value": {
                 "id": "26ae7b7e-9597-4e81-89da-a2e4a05a6ba4",
@@ -476,6 +492,14 @@
                 "id": "35528d35-b120-40cc-b4f1-b978b8187747",
                 "resourcePath": "sounds\\snd_jump\\snd_jump.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8c0de119-53e9-41a3-a238-848a615052c6",
+            "Value": {
+                "id": "0aa2447f-79b0-4770-a824-5af2652ba357",
+                "resourcePath": "sprites\\spr_controls\\spr_controls.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -39,6 +39,7 @@ if (failed) {
 		fadeDirection = fadeDir.out;
 	}
 	if (fadeFrame >= fadeFrames) {
+		obj_game.failures += 1;
 		room_restart();
 	}
 }

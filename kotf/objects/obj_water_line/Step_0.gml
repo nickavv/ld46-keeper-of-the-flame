@@ -1,4 +1,5 @@
-height = lerp(height, targetHeight, 0.01);
+height = lerp(height, targetHeight, 
+		(min(lever.onValue, lever.offValue)/max(lever.onValue, lever.offValue))* 0.02);
 
 if (obj_keeper.bbox_top + 10 > height) {
 	obj_keeper.state = keeperState.failing;

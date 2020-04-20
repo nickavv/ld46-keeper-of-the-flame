@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "13ccb271-cc33-4a79-86bc-715b7cfa2173",
+            "Value": {
+                "id": "6852008f-90fc-4924-87b7-f5c036d5578c",
+                "resourcePath": "sprites\\spr_water_line\\spr_water_line.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "15815de9-4ee8-4bc2-a461-14a666a38295",
+            "Value": {
+                "id": "f9fa5c5e-ff5a-4da1-a51c-2b3eb4a75049",
+                "resourcePath": "objects\\obj_drain\\obj_drain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17d4cf8f-5a85-4549-bbe7-63c4cc0a24bc",
             "Value": {
                 "id": "a8981121-26a7-4a4c-963c-c747eeb44f93",
@@ -180,6 +196,14 @@
                 "id": "730a8cdd-826a-420b-b55d-00819dd4cb9d",
                 "resourcePath": "objects\\obj_spring\\obj_spring.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "379d9fb9-7f44-4102-ae7d-3080432a1f6d",
+            "Value": {
+                "id": "b0785878-9e3d-46bc-810e-93888a7a9e39",
+                "resourcePath": "sounds\\snd_water\\snd_water.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -415,6 +439,14 @@
             }
         },
         {
+            "Key": "82de80d2-ea90-454e-930a-645bb6a47969",
+            "Value": {
+                "id": "566b20d3-889e-4daf-b0d2-e348265e1ef5",
+                "resourcePath": "sprites\\spr_drain\\spr_drain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86f34513-444d-4111-9575-728157520b36",
             "Value": {
                 "id": "36f0dbd8-6481-49a6-802e-85d3580024da",
@@ -508,6 +540,14 @@
                 "id": "d80aa0a5-dc14-489c-b0a9-2faeb8b439ab",
                 "resourcePath": "views\\9dacb62f-4dd4-4567-aac9-ce3d6a5b6c25.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a552efe9-515b-4cf5-96b4-6ca25fe0464e",
+            "Value": {
+                "id": "d87e8fb7-8f7e-49e1-8a8f-d5a4ec1e9a1c",
+                "resourcePath": "sounds\\snd_splash\\snd_splash.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -619,6 +659,14 @@
             "Value": {
                 "id": "e5ff9b91-6290-4517-9ad9-23365713b975",
                 "resourcePath": "objects\\obj_spring_red\\obj_spring_red.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b9376322-0270-47df-ad0b-1692a915c20a",
+            "Value": {
+                "id": "355b114b-bfab-40be-a884-e7ce4fd0f0da",
+                "resourcePath": "objects\\obj_water_line\\obj_water_line.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -836,6 +884,14 @@
                 "id": "428cbe03-2bfb-46d4-8669-2b99a2006377",
                 "resourcePath": "objects\\obj_tutorial_move\\obj_tutorial_move.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed9e21d8-40da-40cd-a793-8cdf827318d1",
+            "Value": {
+                "id": "1bb50015-7c35-4a6d-9805-84939893d63e",
+                "resourcePath": "sprites\\spr_drain_flowing\\spr_drain_flowing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

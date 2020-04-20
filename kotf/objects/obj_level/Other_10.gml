@@ -8,6 +8,9 @@ with (obj_fan) {
 with (obj_tutorial) {
 	instance_destroy();
 }
+with (obj_water_line) {
+	instance_destroy();
+}
 audio_stop_all();
 play_sfx(snd_bell, 0);
 play_sfx(snd_whoosh, 0);

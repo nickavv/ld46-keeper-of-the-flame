@@ -5,4 +5,5 @@ var colliderBelow = collision_rectangle(bbox_left + 1, bbox_bottom + 1,
 if (colliderBelow == noone) {
 	grounded = false;
 	state = keeperState.falling;
+	coyoteFrame = 10;
 }

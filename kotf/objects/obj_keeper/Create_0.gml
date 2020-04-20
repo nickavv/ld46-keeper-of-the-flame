@@ -22,6 +22,8 @@ jumpFrame = 0;
 jumpFrames = 5;
 jumpPowerPerFrame = 1.35;
 
+coyoteFrame = 0;
+
 runSpeed = 1.9;
 airSpeed = 1.6;
 

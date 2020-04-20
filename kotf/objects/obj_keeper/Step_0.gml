@@ -12,6 +12,9 @@ if (keyboard_check_pressed(ord("A"))) {
 if (jumpBufferedFrame > 0) {
 	jumpBufferedFrame --;
 }
+if (coyoteFrame > 0) {
+	coyoteFrame --;
+}
 
 if (grounded && instance_place(x, y, obj_brazier)) {
 	state = keeperState.lighting;

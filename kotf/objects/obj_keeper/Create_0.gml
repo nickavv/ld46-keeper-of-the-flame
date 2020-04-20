@@ -24,6 +24,8 @@ jumpPowerPerFrame = 1.35;
 
 coyoteFrame = 0;
 
+onFloatingPlatform = false;
+
 runSpeed = 1.9;
 airSpeed = 1.6;
 

@@ -16,6 +16,10 @@ switch (fadeDirection) {
 audio_master_gain(1 - (fadeFrame/fadeFrames));
 
 if (levelEnding) {
+	if (levelEndingFrame == 0) {
+		play_sfx(snd_goodbell, 0);
+		play_sfx(snd_swoosh, 0);
+	}
 	drawLevelName = false;
 	levelEndingFrame ++;
 	if (levelEndingFrame >= levelEndingFrames) {
@@ -27,6 +31,9 @@ if (levelEnding) {
 }
 
 if (failed) {
+	if (failedFrame == 0) {
+		play_sfx(snd_swoosh, 0);
+	}
 	failedFrame ++;
 	if (failedFrame >= failedFrames) {
 		fadeDirection = fadeDir.out;

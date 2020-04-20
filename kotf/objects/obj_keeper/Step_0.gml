@@ -13,7 +13,6 @@ if (jumpBufferedFrame > 0) {
 	jumpBufferedFrame --;
 }
 
-var lastState = state;
 if (grounded && instance_place(x, y, obj_brazier)) {
 	state = keeperState.lighting;
 }
@@ -96,6 +95,11 @@ switch (state) {
 	} break;
 	case keeperState.throwingLever: {
 		change_sprite(spr_keeper_throwing_lever);
+		hspeed = 0;
+		vspeed = 0;
+	} break;
+	case keeperState.throwingLeverReverse: {
+		change_sprite(spr_keeper_throwing_lever_reverse);
 		hspeed = 0;
 		vspeed = 0;
 	} break;

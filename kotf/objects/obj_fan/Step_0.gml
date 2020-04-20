@@ -1,6 +1,12 @@
 if (timer != -1 && !initialized) {
 	initialized = true;
 	alarm[0] = offsetTime + 1;
+} else if (timer == -1 && !initialized) {
+	initialized = true;
+	targetSpeed = 1;
+	with (particles) {
+		event_user(1);
+	}
 }
 fanSpeed = lerp(fanSpeed, targetSpeed, 0.04);
 image_speed = fanSpeed;
@@ -30,4 +36,25 @@ if (targetSpeed == 1 && fanSpeed > 0.4) {
 
 if (!audio_is_playing(sound) && targetSpeed == 1) {
 	sound = play_sfx(snd_wind, distance_to_object(obj_keeper));
+	audio_sound_pitch(sound, random_range(0.85, 1.0));
+}
+
+if (!array_length_1d(switches) == 0) {
+	var allOn = true;
+	for (var i = 0; i < array_length_1d(switches); i++) {
+		if (switches[i].thrown == false) {
+			allOn = false;
+		}
+	}
+	if (allOn == true) {
+		targetSpeed = 0;
+		with (particles) {
+			event_user(0);
+		}
+	} else {
+		targetSpeed = 1;
+		with (particles) {
+			event_user(1);
+		}
+	}
 }

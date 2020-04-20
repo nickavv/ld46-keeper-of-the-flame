@@ -103,6 +103,20 @@
             "value": "0",
             "varName": "pause",
             "varType": 0
+        },
+        {
+            "id": "ef93c6e2-a1a1-41b4-a5e9-208c656f212f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "[]",
+            "varName": "switches",
+            "varType": 4
         }
     ],
     "solid": false,

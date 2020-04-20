@@ -14,3 +14,7 @@ if (sprite_index == spr_lever_on) {
 		play_sfx(snd_lever, 0);
 	}
 }
+
+if (platform != noone) {
+	y = platform.y;
+}

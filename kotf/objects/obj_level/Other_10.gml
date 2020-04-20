@@ -2,17 +2,10 @@
 layer_set_visible(layer_get_id("Tiles"), false);
 layer_set_visible(layer_get_id("Instances"), false);
 layer_background_blend(layer_background_get_id(layer_get_id("Background")), col_dark_red);
-with (obj_fan) {
-	instance_destroy();
-}
-with (obj_tutorial) {
-	instance_destroy();
-}
-with (obj_water_line) {
-	instance_destroy();
-}
-with (obj_floating_platform) {
-	instance_destroy();
+with (all) {
+	if (!in_set(object_index, [obj_level, obj_keeper, obj_camera])) {
+		instance_destroy();
+	}
 }
 audio_stop_all();
 play_sfx(snd_bell, 0);

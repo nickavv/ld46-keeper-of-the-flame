@@ -79,6 +79,20 @@
             "value": "0",
             "varName": "offValue",
             "varType": 4
+        },
+        {
+            "id": "136703f2-e953-4e13-a964-6f787211184f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "platform",
+            "varType": 5
         }
     ],
     "solid": false,
